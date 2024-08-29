@@ -10,8 +10,8 @@ first_name: Pierre
 last_name: Bouchez
 
 # Status emoji
-#status: 📝
-#icon: ⚡️
+status: 📝
+icon: ⚡️
 
 # Is this the primary user of the site?
 superuser: true
