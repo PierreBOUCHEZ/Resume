@@ -1,141 +1,146 @@
 ---
 # Display name
-title: 吳健雄
+title: Pierre Bouchez
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Pierre Bouchez
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Pierre
+last_name: Bouchez
 
 # Status emoji
-status:
-  icon: ☕️
+status: 📝
+  icon: ⚡️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: MEMS R&D Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: GREMAN
+    url: https://greman.univ-tours.fr/
+  - name: VERMON
+    url: https://vermon.com
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:prbouchez@orange.fr'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  - icon: "custom/researchgate"
+    url: https://www.researchgate.net/profile/Pierre-Bouchez
+  - icon: "custom/orcid"
+    url: https://orcid.org/0009-0008-4226-3550
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/PierreBOUCHEZ
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://fr.linkedin.com/in/pierre-bouchez-107424153
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Thesis : "Analysis and prediction of the reliability of a capacitive microsystem for the production of ultrasound imaging probes"
+    institution: University of Tours
+    date_start: 2020-10-01
+    date_end: Presently
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      This thesis project revolves around the ageing process and the reliability of a new generation of probes using the CMUT technology. The understanding of the failure mechanisms will enable the determination of a behavioral law of the most sensitive physical parameters of the device as a function of its operating period and conditions.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - area: Master's Degree in Engineering : Electronics and Electrical Energy - Electronics for medical devices
+    institution: University of Tours - Polytech Tours
+    date_start: 2016
+    date_end: 2019
+
+  - area: BTEC Higher National Diploma : Applied Physics and Instrumentation
+    institution: University of Tours - IUT Mesures Physiques of Blois
+    date_start: 2014
+    date_end: 2016
+
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: R&D Engineer
+    company_name: University of Tours 
+    company_url: 'https://greman.univ-tours.fr'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-01-01
+    date_end: 2024-07-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      R&D Engineer in the GREMAN laboratory in the context of a PhD on CMUT technology 
+
+  - position: R&D Engineer
+    company_name: Vermon SA
+    company_url: 'https://vermon.com'
+    company_logo: ''
+    date_start: 2024-07-01
+    date_end: 2023-12-31
+    summary: |
+      R&D Engineer in the Advanced Probes – Design MEMS team
+
+  - position: Intern 
+    company_name: Astronics PGA
+    company_url: 'https://www.astronics.com/fr/subsidiary?subsidiaryItem=astronics%20pga'
+    company_logo: ''
+    date_start: 2019-02-01
+    date_end: 2019-08-01
+    summary: |
+      Intern in the Test & Control service of the Methods department
+      "Setup of maintenance policy on the test infrastructures"
+
+  - position: Intern
+    company_name: ACULAB
+    company_url: 'https://www.aculab.it'
+    company_logo: ''
+    date_start: 2018-06-01
+    date_end: 2018-08-01
+    summary: |
+      Creation of a Matlab program piloting a vibrometry setup to perform displacement spectra acquisitions on michromachined ultrasonic transducers
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming Skills
     items:
+      - name: Matlab
+        description: ''
+        percent: 100
+        icon: devicon/matlab
       - name: Python
         description: ''
         percent: 80
         icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+      - name: LabVIEW
         description: ''
         percent: 80
-        icon: camera
+        icon: devicon/labview
+
+  - name: Technical Skills
+    items:
+      - name: Instrumentation
+        description: ''
+        percent: 100
+        icon: hero/wrench-screwdriver
+      - name: Metrology
+        description: ''
+        percent: 100
+        icon: hero/scale
+      - name: Reliability
+        description: ''
+        percent: 100
+        icon: hero/shield-check
 
 languages:
+  - name: French
+    percent: 100
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Deutsch
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -169,4 +174,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am a research and development engineer, mainly interested in MEMS technologies and instrumentation in general. I am currently finishing a PhD on CMUT reliability and its electrical ageing process.
